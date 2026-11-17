@@ -8,13 +8,7 @@ No dependencies. Node.js 18+.
 
 ## Install
 
-From GitHub:
-
-```bash
-npm install -g github:MohammedDev69/opencode-apikeys
-```
-
-From a local clone (development):
+Clone and link (works everywhere):
 
 ```bash
 git clone https://github.com/MohammedDev69/opencode-apikeys.git
@@ -22,8 +16,25 @@ cd opencode-apikeys
 npm link
 ```
 
+Or install straight from GitHub, if your npm allows git sources:
+
+```bash
+npm install -g github:MohammedDev69/opencode-apikeys
+```
+
 Either way you get a global `apikeys` command that works from any directory in
 any shell (`cmd.exe`, PowerShell, bash).
+
+> If `npm install -g github:...` fails with `EALLOWGIT` ("Fetching packages of
+> type git have been disabled"), your npm policy blocks git dependencies. Use
+> the clone + `npm link` method above, or re-enable it with
+> `npm config set allow-git all`.
+
+Reinstall after pulling updates:
+
+```bash
+cd opencode-apikeys && git pull
+```
 
 To remove it later:
 
