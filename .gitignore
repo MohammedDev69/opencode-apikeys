@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+package-lock.json
+
+# secrets — never commit real keys
+*.key
+apikeys.vault.json
+.env
+.env.*
+!.env.example
+
+# key file backups
+*.bak
+*.bak-*
+
+# logs and temp
+*.log
+npm-debug.log*
+*.tmp
+*.tmp-*
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,36 @@
+{
+  "name": "opencode-apikeys",
+  "version": "1.2.0",
+  "description": "Store multiple API keys per OpenCode provider, switch the active one, and test them from any shell.",
+  "keywords": [
+    "opencode",
+    "api-keys",
+    "cli",
+    "vault",
+    "secrets",
+    "provider"
+  ],
+  "license": "MIT",
+  "author": "MohammedDev69",
+  "type": "commonjs",
+  "bin": {
+    "apikeys": "bin/apikeys.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedDev69/opencode-apikeys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MohammedDev69/opencode-apikeys/issues"
+  },
+  "homepage": "https://github.com/MohammedDev69/opencode-apikeys#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
